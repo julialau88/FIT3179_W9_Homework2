@@ -38,9 +38,11 @@
                 "domain": [2,3,4,5,6],
                 "range": ["#ffffb2","#fed976","#fd8d3c","#f03b20","#bd0026"]
             }
-          
-         
-        }
+        },
+        "tooltip":[
+            {"field": "properties.name", "type": "nominal", "title":"State"},
+            {"field": "Cases per 10,000 population", "type": "quantitative"}
+        ]
        
     }
 }
